@@ -1,12 +1,10 @@
 import "./App.css";
-import Video1 from "./learn/video1";
+import Video7 from "./chuong2/video7";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <Video1 />
+      <Video7 />
     </div>
   );
 }
-
-export default App;

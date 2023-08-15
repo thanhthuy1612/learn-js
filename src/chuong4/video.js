@@ -38,7 +38,7 @@ fetch("https://request.in/api/users?page=2")
   });
 
 axios
-  .get("https://request.in/api/users?page=2")
+  .get("https://request.in/api/users?page=3")
   .then((res) => {
     console.log(res.data);
   })

@@ -50,7 +50,7 @@ const http = axios.create({
 
 http.interceptors.request.use(
   (config) => {
-    config.headers.Timeout = 100;
+    config.headers.Timeout = 200;
     return config.data;
   },
   (err) => {
